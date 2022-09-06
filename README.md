@@ -13,3 +13,9 @@ A small piece of code which intends to make Microsoft Flightsim 2020 (MSFS2020) 
 - Two-pass JPEG Compression
 
 ### Examples:
+
+Input:<br/>
+![](img/example.png)
+
+Output:<br/>
+![](img/postprocessed.png)
