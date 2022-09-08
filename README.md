@@ -14,8 +14,8 @@ A small piece of code which intends to make Microsoft Flightsim 2020 (MSFS2020) 
 
 ### Examples:
 
-Input:<br/>
-![](img/example.png)
-
-Output:<br/>
-![](img/postprocessed.png)
+| Input                   | Output                   |
+|:-----------------------:|:------------------------:|
+|![](img/example-in-1.png)|![](img/example-out-1.png)|
+|![](img/example-in-2.png)|![](img/example-out-2.png)|
+|![](img/example-in-3.png)|![](img/example-out-3.png)|
