@@ -27,7 +27,7 @@ import imageio
 
 
 # top, right, bottom, left
-CROP = False
+CROP = True
 CROP_BY = [22, None, None, None]
 
 # gaussian noise config per channel (R G B)
@@ -319,14 +319,9 @@ def postprocess_batch(input_dir : str, output_dir : str) -> None:
 
 
 
-original = cv2.imread('img/sim-4.png')
-# original = cv2.imread('E:/flightsimIII/images/000010182.png')
-# original = cv2.imread('E:/flightsimIII/images/000000023.png')
-# original = cv2.imread('E:/flightsimIII/images/000008628.png')
-# original = cv2.imread('E:/flightsimIII/images/000010044.png')
 
+# EXAMPLE: 
+
+original = cv2.imread('img/example-in-2.png')
 original = postprocess(original)
-cv2.imwrite('postprocessed.png', original)
-
-
-# postprocess_batch('E:/flightsimIII/images', 'E:/flightsimIII/postprocessed')
+cv2.imwrite('img/example-out-2.png', original)
